@@ -46,13 +46,30 @@ button {
   outline: none;
   border-radius: 8px;
   cursor: pointer;
-  
-}     
+
+}
+.button {
+  background-color: #007aff;
+  color: #ffffff;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  text-transform: none;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
 button:hover,
 .button:focus {
   color: #212121;
   border-color: #888;
-  outline: #7AB8FF solid 3px
+  outline: #7AB8FF solid 3px;
+  background-color: #005bb5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 .button.button-primary {
   color: #fff;
@@ -72,6 +89,7 @@ button:hover,
   vertical-align: middle;
   width: 20px;
   height: 20px;
+  margin-right: 10px;
 }
 
 /* Brand Styles
